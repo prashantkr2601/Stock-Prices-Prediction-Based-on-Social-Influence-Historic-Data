@@ -2,7 +2,7 @@
 <html>
   <body style="text-align: justify; margin: 2%; user-select: none">
     <hr />
-    <h1 style="text-align: center">
+    <h1 align= "center">
       Stock Prices Prediction Based on Social Influence & Historic Data
     </h1>
     <hr />
@@ -14,7 +14,7 @@
         margin-bottom: 5vh;
       "
     >
-      <h2 style="text-align: center">Abstract</h2>
+      <h2 align= "center">Abstract</h2>
       <p>
         Stock market price prediction is a challenging issue as it is impacted
         by a range of elements including political statements, economic
@@ -43,7 +43,7 @@
           Prophet, Rmse.
         </i>
       </h3>
-      <h2 style="text-align: center">Introduction</h2>
+      <h2 align= "center">Introduction</h2>
       <p>
         From past many years, analysts and scholars have been interested in
         predicting stock market values. Stock prices are difficult to anticipate
@@ -85,7 +85,7 @@
         activation and loss function to improve our model .The hybrid model
         exhibit good performance to the as compare to the previous models.
       </p>
-      <h2 style="text-align: center">Proposed model</h2>
+      <h2 align= "center">Proposed model</h2>
       <p>
         Predict stock prices using social history news data and a shared
         platform that comprises the five stages below and refer our model in
@@ -133,7 +133,7 @@
         />
       </div>
       <hr />
-      <h1 style="text-align: center">** Thank YOU **</h1>
+      <h1 align= "center">** Thank YOU **</h1>
       <hr />
     </div>
 
