@@ -1,60 +1,24 @@
-<!DOCTYPE html>
-<html>
-  <body style="text-align: justify; margin: 2%; user-select: none">
-    <hr />
-    <h1 align= "center">
-      Stock Prices Prediction Based on Social Influence & Historic Data
-    </h1>
-    <hr />
-    <div
-      style="
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-      "
-    >
-      <h2 align= "center">Abstract</h2>
-      <p>
-        Stock market price prediction is a challenging issue as it is impacted
-        by a range of elements including political statements, economic
-        circumstances, business market value, historical stock price, and so on.
-        Hence study exhibit that many prebuild models like: ARIMA or deep
-        learning model like:LSTM but their efficiency is not up to mark for
-        stock price prediction . In this paper, we build hybrid model which is
-        blended with CNN and LSTM to improve the performance. We used historical
-        data (prior stock price) in the form of numerical information from of
-        the NIFTY50 from 2015 to 2020, as well as news data in textual form from
-        the @NDTVProfit twitter account. In addition, we used a variety of
-        prebuild models and deep learning models to forecast the next 10 days'
-        values. We initiated with numerals / historical dataset and applied
-        ARIMA, SARIMAX, Facebook prophet and LSTM on historical datasts and we
-        got error score 1062, 964, 709 and 285 respectively . In addition we
-        applied all model like: ARIMA, SARIMAX, Facebook prophet and LSTM on
-        combined dataset (historical datasts+news datasets) and obtained error
-        score 789,655,380 and 170. The new hybrid model which is blended with
-        CNN and LSTM deep learning models is applied on combined dataset and 89
-        error score was obtained which is better as compared to all previous
-        models.
-      </p>
-      <h3>
-        <i>
-          Keywords :- Deep Learning, Stock Price, Lstm, Arima, Sarimax, Facebook
-          Prophet, Rmse.
-        </i>
-      </h3>
-      <h2 align= "center">Introduction</h2>
-      <p>
-        From past many years, analysts and scholars have been interested in
-        predicting stock market values. Stock prices are difficult to anticipate
-        because of their significant volatility, which is influenced by a
-        variety of political and economic issues, as well as changes in
-        leadership, investor attitude, and a variety of other factors. Stock
-        price forecasting based only on historical data and textual information
-        has shown to be ineffective. Investor views and mood about the overall
-        financial markets, particularly specific sectors and assets, are
-        measured by market sentiment. Hence Stock market price is a challenging
-        issue and needs to be resolved in optimized way.
+
+
+# <hr/>Stock Prices Prediction Based on Social Influence & Historic Data<hr/>  
+
+
+
+<h2 align= "center">Abstract</h2>
+ 
+                                         
+> <p align="justify">Stock market price prediction is a challenging issue as it is impacted by a range of elements including political statements, economic circumstances, business market value, historical stock price, and so on. Hence study exhibit that many prebuild models like: ARIMA or deep learning model like:LSTM but their efficiency is not up to mark for stock price prediction . In this paper, we build hybrid model which is blended with CNN and LSTM to improve the performance. We used historical data (prior stock price) in the form of numerical information from of the NIFTY50 from 2015 to 2020, as well as news data in textual form from the @NDTVProfit twitter account. In addition, we used a variety of prebuild models and deep learning models to forecast the next 10 days’ values. We initiated with numerals / historical dataset and applied ARIMA, SARIMAX, Facebook prophet and LSTM on historical datasts and we got error score 1062, 964, 709 and 285 respectively . In addition we applied all model like: ARIMA, SARIMAX, Facebook prophet and LSTM on combined dataset (historical datasts+news datasets) and obtained error score 789,655,380 and 170. The new hybrid model which is blended with CNN and LSTM deep learning models is applied on combined dataset and 89 error score was obtained which is better as compared to all previous models.
+</p>
+ 
+ **Keywords :- Deep Learning, Stock Price, Lstm, Arima, Sarimax, Facebook Prophet, Rmse.**
+
+
+ <h2 align= "center">Introduction</h2>
+ 
+ <0 . 01  0                          scholars have been interested in predicting stock market values. Stock prices are difficult to anticipate because of their significant volatility, which is influenced by a variety of political and economic issues, as well as changes in leadership, investor attitude, and a variety of other factors. Stock price forecasting based only on historical data and textual information has shown to be ineffective. Investor views and mood about the overall financial markets, particularly specific sectors and assets, are measured by mar
+ 
+ 
+                                                              p m o o o o o     ved in optimized way.
       </p>
       <p>
         For active traders and long-term investors, positive and negative
@@ -85,7 +49,9 @@
         activation and loss function to improve our model .The hybrid model
         exhibit good performance to the as compare to the previous models.
       </p>
+      
       <h2 align= "center">Proposed model</h2>
+      
       <p>
         Predict stock prices using social history news data and a shared
         platform that comprises the five stages below and refer our model in
@@ -137,5 +103,3 @@
       <hr />
     </div>
 
-  </body>
-</html>
