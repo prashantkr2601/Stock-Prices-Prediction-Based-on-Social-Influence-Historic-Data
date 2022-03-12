@@ -1,4 +1,4 @@
-## <h2 align="center"> <hr/>Stock Prices Prediction Based on Social Influence & Historic Data<hr/>  </h2>
+## <h2 align="center"> <hr/>Stock Prices Prediction Based on Social Influence & Historic Data<hr/> </h2>
 
 <h2 align= "center">Abstract</h2>
                                          
@@ -30,10 +30,27 @@
 
 <img src="./Image/Flowchart.jpg" alt="Proposed model" width="100%" height="auto"/>
 
+_<h4 align= "center">Flow Chart</h2>_
+
+<br/>
+
+<h2 align= "center">Hybrid Model (LSTM+CNN)</h2>
+
+> Implementation of
+> Hybrid Model:
+
+<img src="./Image/Structure of LSTM_CNN.jpg" alt="Proposed model" width="100%" height="550px"/>
+
+_<h4 align= "center">Structure of Hybrid model</h2>_
+
+> <p align="justify"> We may deduce that the particular model is developed as present in the sample on the CNN LSTM show’s variable choices: The learning set’s input data is a tri information vector (Zero, 10, 8), where 10 specifies the temporal step size and 8 denotes the input planet eight attributes.The input is first processed through a one-dimensional convolution layer, which extracts further information and provides a three- dimensional output sequence (None, 10, 32), with 32 becoming the size of the convolution layer filters. In the pooling layer, the vector is then converted into a three- dimensional output vector (None, 10, 32). The output vector is sent to the LSTM layer after training, and the output data (None, 64) is fed into a complete means of communication with the output value; the current hidden units in the Hidden layers is 64.</p>
+
+<br/>
+
 <h2 align= "center"> Result Table</h2>
 
 <h4 align= "center">
- 
+
 |          Model Name        |      RMSE   |
 | -------------------------- | ------------|
 |  LSTM                      |      285    |
@@ -45,11 +62,11 @@
 |  SARIMA on New Data        |      655    |
 |  FB Prophet on New Data    |      380    |
 |  Hybrid Model(LSTM + CNN)  |      89     |
-
 </h4>
 
+
 > <p align="justify"> This Table consist of results of various prebuild and deep learning models.we got results from Facebook prophet, SARIMAX, ARIMA, LSTM is 709, 964, 1062 and 285 respectively on numerical data or historical data and also we got results from Facebook prophet, SARIMAX, ARIMA, LSTM is 380, 655, 789 and 170 respectively on combined datasets. We got improved results in hybrid model which is 89 error score on combined dataset and ARIMA model gave us worst results which is 1062 error score on combined dataset. Which is shown in table. </p>
- 
+
  <h2 align= "center"> Conclusion </h2>
  
  > <p align="justify"> We discuss how to analyse time data and develop Deep learning models from a development standpoint in this paper. The most difficult time series to anticipate is stock prices, and we can do it with great accuracy for the Nifty Index Data. Because our RMSE value was the lowest compared to the other models’ RMSE values, our Hybrid model (LSTM+CNN) predicted the best result out of all the pre-build models we investigated, as shown in the Result table. </p>
@@ -57,14 +74,13 @@
 > #### However, the following suggestions might help you boost your performance even more:
 
 > - Gather news data for a longer period of time in order to have more data points.
-> -	Quantization of the model to int8 may be employed for even quicker prediction, but it will degrade the accuracy significantly.
-> -	According to recent study, reinforcement learning,also known as GAN, can be used to better correctly anticipate the stock market
-> -	Anomalies may be better addressed by retraining the data with the appropriate sentiment ratings using a customized trained sentiment analyzer.
-> -	Machine Learning When dealing with large volumes of data, models are quite useful. Because we only have a limited quantity of data on stock prices.
+> - Quantization of the model to int8 may be employed for even quicker prediction, but it will degrade the accuracy significantly.
+> - According to recent study, reinforcement learning,also known as GAN, can be used to better correctly anticipate the stock market
+> - Anomalies may be better addressed by retraining the data with the appropriate sentiment ratings using a customized trained sentiment analyzer.
+> - Machine Learning When dealing with large volumes of data, models are quite useful. Because we only have a limited quantity of data on stock prices.
 
- *** 
- 
+---
+
  <h2 align="center"> ** Thank YOU ** </h2> 
  
- *** 
- 
+ ***
